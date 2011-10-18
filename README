@@ -1,0 +1,25 @@
+
+Programa OpenGL em C/C++ que permite que o usuário defina um polígono e, em
+seguida, realize operações de translação, escala e rotação nesse polígono. 
+
+
+- O programa inicia com uma tela em branco
+
+- Cada vez que o usuário clicar com o botão esquerdo do mouse, o programa guarda
+o ponto (x, y) como um vértice do polígono e desenha os lados do polígono (cor preta).
+
+- Quando o usuário tecla a letra "f" (finalizar), o sistema interpreta como fim do
+polígono e desenha todos os lados do polígono na cor vermelha.
+
+- Se antes de teclar "f" o usuário teclar "d" (deletar), o último vértice guardado é descartado.
+
+Tecla "+": escala o polígono em 0.2 nos eixos x e y
+Tecla "-": escala o polígono em -0.2 nos eixos x e y
+Tecla " ": desenha o polígono preenchido ou vazado
+Tecla "l": rotaciona o polígono em -5o (sentido horário)
+Tecla "s": rotaciona o polígono em 5o (sentido anti-horário)
+Tecla Up: move o polígono +2 no eixo y
+Tecla Down: move o polígono -2 no eixo y
+Tecla Left: move o polígono -2 no eixo x
+Tecla Right: move o polígono +2 no eixo x
+
